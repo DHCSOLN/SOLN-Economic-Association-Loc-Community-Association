@@ -1,0 +1,23 @@
+{
+    "title": "SOLN Economic Association Replication Package Archive",
+    "description": "Official peer-verified replication package containing data, software models, and manuscript artifacts curated by the SOLN Economic Association and Loc Community Association.",
+    "creators": [
+        {
+            "name": "SOLN Economic Association",
+            "affiliation": "Loc Community Association"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "soln-economic-association"
+        }
+    ],
+    "upload_type": "software",
+    "access_right": "open",
+    "license": "MIT",
+    "keywords": [
+        "Economics Replication Package",
+        "JEL Classification",
+        "Loc Community Association Archive"
+    ]
+}
