@@ -1,0 +1,19 @@
+name: Execute SOLN Infrastructure Setup
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: # This adds a manual "Run" button to your screen
+
+jobs:
+  run-setup-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Make script executable
+        run: chmod +x setup-node.sh
+
+      - name: Run setup-node script in GitHub Cloud
+        run: ./setup-node.sh
